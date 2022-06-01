@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function towerBuilder(nFloors) {
     if(nFloors === 0){
       return []
@@ -20,6 +20,3 @@ function towerBuilder(nFloors) {
     }
     return result
   }
-=======
-
->>>>>>> 6a23c4846897cdbf2ca0e77a8920692926c2d1de
