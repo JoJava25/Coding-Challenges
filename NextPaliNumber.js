@@ -1,7 +1,7 @@
 function nextPal(val) {
-    var pal = val + 1;
+    let pal = val + 1
     while(pal !== Number((""+pal).split("").reverse().join(""))){
-    pal++;
+    pal++
     }
-    return pal;
+    return pal
     }
