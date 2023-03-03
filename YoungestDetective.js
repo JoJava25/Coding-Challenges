@@ -1,5 +1,5 @@
 function missingWord(nums, str) {
-    let letters =  str.split(' ').join('').toLowerCase().split('')
+    let letters =  str.split(' ').join('').toLowerCase()
     nums = nums.sort((a, b) => a - b)
     let result = []
     for(let i = 0; i <= nums.length - 1; i++){
