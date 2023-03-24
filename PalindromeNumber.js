@@ -1,7 +1,4 @@
 const isPalindrome = function(x){
-/*     let str1 = x.toString()
-    str2 = str1.split('').reverse().join('')
-    return str1 === str2 */
     let str = x.toString()
     return str === str.split('').reverse().join('')
 }
