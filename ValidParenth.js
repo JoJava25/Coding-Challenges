@@ -14,3 +14,7 @@ var isValid = function(s) {
     }
     return !stack.length;
 };
+
+console.log(isValid("({})"))
+console.log(isValid("((("))
+console.log(isValid("[({()})]"))
