@@ -1,7 +1,7 @@
 let isPalindrome = function(s) {
-    s = s.split(' ').join('').split('').filter(a => a.toLowerCase() != a.toUpperCase()).join('').toLowerCase();
+    s = s.split(' ').join('').split('').filter(a => a.toLowerCase() != a.toUpperCase()).join('').toLowerCase()
 
-    return s === s.split('').reverse().join('');
+    return s === s.split('').reverse().join('')
 }
 
 
