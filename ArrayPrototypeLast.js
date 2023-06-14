@@ -4,4 +4,4 @@ Array.prototype.last = function() {
     }else{
         return -1
     }
-};
+}
