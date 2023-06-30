@@ -7,7 +7,6 @@ var timeLimit = function(fn, t){
                 rej('Time Limit Exceeded')
             }, t)
         })
-        
         return Promise.race([fns, p])
     }
 }
