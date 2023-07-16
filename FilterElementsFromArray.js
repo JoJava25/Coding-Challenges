@@ -5,5 +5,6 @@ let filter = function(arr, fn){
         ans.push(arr[i])
       }
     }
+    
     return ans
 }
