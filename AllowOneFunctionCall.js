@@ -3,7 +3,6 @@ let once = function(fn){
 
     return function(...args){
         count++
-        
         if(count == 1){
             return fn(...args)
         }
