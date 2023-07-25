@@ -13,5 +13,6 @@ let chunk = function(arr, size){
     if(chunk.length){
         result.push(chunk)
     }
+    
     return result
 }
