@@ -1,5 +1,6 @@
 var timeLimit = function(fn, t){
     return async function(...args){
+        
         const fns = fn(...args)
 
         const p = new Promise((res, rej) => {
