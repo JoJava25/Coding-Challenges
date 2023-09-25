@@ -9,6 +9,7 @@ let chunk = function(arr, size){
             chunk = []
         }
     }
+    
     if(chunk.length){
         result.push(chunk)
     }
