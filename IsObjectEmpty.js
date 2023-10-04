@@ -4,5 +4,4 @@ var isEmpty = function(obj) {
     }else{
         return false
     }
-    
 }
