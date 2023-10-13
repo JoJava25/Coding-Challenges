@@ -8,7 +8,6 @@ const computeDepth = (n) => {
         digits.add(num % 10)
         num = Math.floor(num / 10)
       }
-      
       depth++
     }
     return depth - 1
