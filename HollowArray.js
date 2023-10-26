@@ -3,6 +3,5 @@ function isHollow(x){
       x.shift();
       x.pop();
     }
-    
     return x.length > 2 && x.every(i => i === 0);
   }
