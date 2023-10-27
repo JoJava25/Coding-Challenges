@@ -9,5 +9,6 @@ const computeDepth = (n) => {
       }
       depth++
     }
+    
     return depth - 1
   }
