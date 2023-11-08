@@ -1,5 +1,4 @@
 function rotations(dieArray){
-    function rotations(dieArray){
         let possibleSolutions = [];
         let tempSum;
         
@@ -14,5 +13,4 @@ function rotations(dieArray){
         }
         
         return Math.min.apply(Math, possibleSolutions)
-      }
 }
