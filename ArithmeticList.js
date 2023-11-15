@@ -6,5 +6,6 @@ let seqlist =function(first,c,l){
         add = add + c
         arr.push(add)
     }
+    
     return arr
 }
