@@ -1,0 +1,3 @@
+function wordPattern(word) {
+    return; 
+  }
