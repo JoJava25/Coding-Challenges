@@ -1,6 +1,7 @@
 function wordPattern(word) {
     let read = {}
     let count = 0
+
     const pattern = word.split('').map(char => {
       char = char.toLowerCase()
       if (read.hasOwnProperty(char)) {
@@ -11,5 +12,6 @@ function wordPattern(word) {
       count++
       return newCount
     })
+    
     return pattern.join('.'); 
   }
