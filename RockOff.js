@@ -9,7 +9,7 @@ function solve(a, b){
             score2++
         }
     }
-  console.log(score1, score2)
+    
     if(score1 > score2){
         return `${score1}, ${score2}: Alice made "Kurt" proud!`
     }else if(score2 > score1){
