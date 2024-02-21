@@ -6,5 +6,6 @@ function crusoe(n, d, ang, distmult, angmult) {
         d *= distmult;
         a *= angmult;
     }
+    
     return [x, y];
 }
