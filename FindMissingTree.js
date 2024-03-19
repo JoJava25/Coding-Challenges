@@ -22,8 +22,8 @@ function findTheMissingTree(trees){
 }
 
 function findTheMissingTree(trees) {
-    //coding and coding..
     const obj = {}
+    
     for( let i = 0; i < trees.length; i++){
       if(!obj[trees[i]]){
         obj[trees[i]] = [trees[i]]
