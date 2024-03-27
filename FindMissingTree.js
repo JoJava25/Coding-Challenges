@@ -1,26 +1,3 @@
-function findTheMissingTree(trees){
-    let count = {}
-    let result = 0
-    let min = infinity
-    for(let i = 0; i < trees.length; i++){
-        let size = trees[i]
-        if(count[size]){
-            count[size]++
-        }else{
-            count[size] = 1
-        }
-    }
-
-    for(x in count){
-        if(count[x] < min){
-            min = count[x]
-            result = 
-        }
-    }
-
-    return count
-}
-
 function findTheMissingTree(trees) {
     const obj = {}
     
