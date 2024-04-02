@@ -13,7 +13,6 @@ function faroCount(deckSize) {
             cardsMerged.push(card, secondHalf[i]);
         })
 
-        
         count++;
 
     } while ( !cardsMerged.every( (e, i) => e == cards[i]) )
