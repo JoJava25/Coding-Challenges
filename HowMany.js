@@ -1,5 +1,6 @@
 function checkNum (num,d){
     let arr = [...num+''].map(Number);
+    
     return arr.slice(1).every((x,i)=>{
       return x-arr[i]<=d && x-arr[i] > 0
     })
