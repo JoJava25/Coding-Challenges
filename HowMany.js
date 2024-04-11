@@ -11,5 +11,6 @@ function checkNum (num,d){
     for(let i=12;i<=n;i++){
       if(checkNum(i,d))result.push(i)
     }
+  
     return result.length
   }
