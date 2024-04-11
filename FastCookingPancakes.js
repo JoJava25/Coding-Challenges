@@ -1,0 +1,3 @@
+function cookPancakes(n, m){
+    
+}
