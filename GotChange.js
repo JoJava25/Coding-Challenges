@@ -1,5 +1,6 @@
 function giveChange(amount) {
     let bills = [0,0,0,0,0,0]
+    
     while(amount > 0){
       if(amount >= 100){
         amount = amount - 100
