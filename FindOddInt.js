@@ -8,7 +8,6 @@ function findOdd(A) {
             freq[num] = 1
           }
       }
-      
       for (const property in freq){
         if(freq[property] % 2 !== 0){
           return Number(property)
