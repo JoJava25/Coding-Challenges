@@ -10,6 +10,7 @@ let lengthOfLastWord = function(s){
 }
 
 
+
 console.log(lengthOfLastWord("Hello World"))
 console.log(lengthOfLastWord("From another planet"))
 console.log(lengthOfLastWord(" what in gods name is   this "))
