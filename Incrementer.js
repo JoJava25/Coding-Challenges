@@ -8,5 +8,6 @@ function incrementer(nums) {
       }
       result.push(add)
     }
+    
     return result
   }
