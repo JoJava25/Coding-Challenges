@@ -1,6 +1,6 @@
 function computerToPhone(numbers){
-    var ans=''
-    for (var i=0; i<numbers.length; ++i)
+    let ans=''
+    for (let i=0; i<numbers.length; ++i)
     {
       if (numbers[i]=='1') ans+='7'
       else if (numbers[i]=='2') ans+='8'
