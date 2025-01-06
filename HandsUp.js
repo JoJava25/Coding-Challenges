@@ -1,6 +1,6 @@
 const getPositions = s => {
-    let d=s%27
-    let a=0;
+    let d = s%27
+    let a = 0;
 
     if (d>8) a=1;
     if (d>17) a=2;
