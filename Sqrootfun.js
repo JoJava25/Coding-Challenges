@@ -1,6 +1,7 @@
 function squareIt(int) {
     let n = Math.sqrt(int.toString().length);
     
+    
     if(n !== Math.floor(n)){
       return 'Not a perfect square!'
     } else {
