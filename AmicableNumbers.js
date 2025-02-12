@@ -6,5 +6,4 @@ function amicableNumbers(num1, num2) {
         }
     }
     return array.reduce( (n1, n2)=> n1 + n2 ) === num2
-
 }
