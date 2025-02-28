@@ -6,7 +6,6 @@ function doors(n){
     return doors.reduce(function(total,x){ return x == 'o' ? total+1 : total}, 0)
   }
   
-  
   function openAndShut(arr, num) {
     let doors = arr;
     for (let i = num -1 ; i < arr.length + 1 ; i = i + num) {
