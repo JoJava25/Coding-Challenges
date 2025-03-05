@@ -7,6 +7,7 @@ function wordPattern(word) {
       if (read.hasOwnProperty(char)) {
         return read[char]
       }
+      
       read[char] = count
       let newCount = count
       count++
