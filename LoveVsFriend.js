@@ -4,5 +4,6 @@ function wordsToMarks(string){
     string.split('').forEach((char) => {
       marks += alphabet.indexOf(char) + 1;
     });
+    
     return marks;
   }
